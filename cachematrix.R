@@ -34,3 +34,11 @@ cacheSolve <- function(x, ...) {
   x$setinverse(m)
   m
 }
+
+#Testing the script
+set.seed(1)
+matrixxx <- matrix(rnorm(25), 5)
+matrixxxcache<-makeCacheMatrix(matrixxx)
+matrixxxcache
+cacheSolve(matrixxxcache)
+cacheSolve(matrixxxcache)

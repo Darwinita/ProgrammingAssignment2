@@ -43,6 +43,7 @@ really a list containing a function to
                  getmean = getmean)
     }
 
+makevector (10)
 The following function calculates the mean of the special "vector"
 created with the above function. However, it first checks to see if the
 mean has already been calculated. If so, it `get`s the mean from the
